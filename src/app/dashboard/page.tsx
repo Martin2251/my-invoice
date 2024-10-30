@@ -70,14 +70,15 @@ const Home = () => {
         </TableRow>
       </TableHeader>
       <TableBody>
-        {invoices.map((invoice) => (
-          <TableRow key={invoice.invoice}>
-            <TableCell className="font-medium">{invoice.invoice}</TableCell>
-            <TableCell>{invoice.paymentStatus}</TableCell>
-            <TableCell>{invoice.paymentMethod}</TableCell>
-            <TableCell className="text-right">{invoice.totalAmount}</TableCell>
+       
+          <TableRow >
+            <TableCell className="font-medium">10/31/2024</TableCell>
+            <TableCell>john Wayne</TableCell>
+            <TableCell>fry@planetexpress.com</TableCell>
+            <TableCell>Open</TableCell>
+            <TableCell className="text-right"></TableCell>
           </TableRow>
-        ))}
+  
       </TableBody>
       <TableFooter>
         <TableRow>
