@@ -6,11 +6,11 @@ const Home = () => {
 <main className='max-w-5xl mx-auto'>
   <h1 className='text-5xl font-bold'>Invoiceapia </h1>
   <p>
+ 
+    <Button asChild>
     <a href="/dashboard">
     Sign In!!
     </a>
-    <Button>
-      Sign in
     </Button>
   </p>
 </main>
