@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from '@/components/ui/button'
 
 const Home = () => {
   return (
@@ -6,8 +7,11 @@ const Home = () => {
   <h1 className='text-5xl font-bold'>Invoiceapia </h1>
   <p>
     <a href="/dashboard">
-    Sign In
+    Sign In!!
     </a>
+    <Button>
+      Sign in
+    </Button>
   </p>
 </main>
   )
