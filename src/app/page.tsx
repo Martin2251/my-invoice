@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Home = () => {
   return (
-<main className='max-w-5xl mx-auto'>
+<main className='flex flex-col max-w-5xl mx-auto'>
   <h1 className='text-5xl font-bold'>Invoiceapia </h1>
   <p>
  
