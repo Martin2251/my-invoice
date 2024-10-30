@@ -1,19 +1,11 @@
 import React from 'react'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
+
 
 const Home = () => {
   return (
 <main className='flex flex-col justify-center h-full text-center gap-6 max-w-5xl mx-auto'>
-  <h1 className='text-5xl font-bold'>Invoiceapia </h1>
-  <p>
- 
-    <Button asChild>
-    <Link href="/dashboard">
-    Sign In!!
-    </Link>
-    </Button>
-  </p>
+  <h1 className='text-5xl font-bold'>Dashboard </h1>
+
 </main>
   )
 }
