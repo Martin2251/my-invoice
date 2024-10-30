@@ -72,11 +72,11 @@ const Home = () => {
       <TableBody>
        
           <TableRow >
-            <TableCell className="font-medium">10/31/2024</TableCell>
-            <TableCell>john Wayne</TableCell>
-            <TableCell>fry@planetexpress.com</TableCell>
-            <TableCell>Open</TableCell>
-            <TableCell className="text-right"></TableCell>
+            <TableCell className="font-medium text-left">10/31/2024</TableCell>
+            <TableCell className="text-left">john Wayne</TableCell>
+            <TableCell className="text-left">fry@planetexpress.com</TableCell>
+            <TableCell className="text-left">Open</TableCell>
+            <TableCell className="text-left">100</TableCell>
           </TableRow>
   
       </TableBody>
