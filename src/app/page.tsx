@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const Home = () => {
   return (
@@ -8,9 +9,9 @@ const Home = () => {
   <p>
  
     <Button asChild>
-    <a href="/dashboard">
+    <Link href="/dashboard">
     Sign In!!
-    </a>
+    </Link>
     </Button>
   </p>
 </main>
